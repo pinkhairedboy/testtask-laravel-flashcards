@@ -1,0 +1,30 @@
+{
+    "name": "nwidart/flashcard",
+    "description": "",
+    "authors": [
+        {
+            "name": "Miro",
+            "email": "p.nkhaired@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Flashcard\\": "/",
+            "Modules\\Flashcard\\Database\\Factories\\": "/Database/Factories",
+            "Modules\\Flashcard\\Database\\Seeders\\": "/Database/Seeders"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Flashcard\\Tests\\": "/Tests"
+        }
+    }
+}

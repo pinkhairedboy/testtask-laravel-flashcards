@@ -1,0 +1,16 @@
+<?php
+
+namespace Modules\Flashcard\Http\Requests;
+
+use Illuminate\Foundation\Http\FormRequest;
+
+class CreateFlashcardRequest extends FormRequest
+{
+    public function rules(): array
+    {
+        return [
+            'question' => 'required|string|max:255',
+            'answer' => 'required|string|max:255',
+        ];
+    }
+}
